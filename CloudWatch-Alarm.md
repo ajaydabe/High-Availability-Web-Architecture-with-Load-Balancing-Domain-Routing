@@ -1,17 +1,19 @@
 Now let's create CloudWatch Alarms for below things with SNS Topic so we will get notifications:
 
 1) When CPU Utilization of apache-server is >=80 %
-2) When CPU Utilization of apache-server is <=80 %
+2) When CPU Utilization of apache-server is <=60 %
+3) When CPU Utilization of nginx-server is >=80 %
+4) When CPU Utilization of nginx-server is <=60 %
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/0af22c1e-e4f2-46bc-ac8c-92e310c6676d)
 
 1) Create alarm to trigger auto scaling policy when CPU Utilization of apache-server goes above or equal to 80 %
 
-Click on "Select metric" option
+Click on **Select metric** option
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/40879c2c-5420-4bdf-b459-510d4f268a52)
 
-Go to EC2 ==> Auto scaling Group ==> Select apache-ASG CPU Utilization
+Go to **EC2 ==> Auto scaling Group ==> Select apache-ASG CPU Utilization**
 
 Click on Select Metric
 
