@@ -20,15 +20,15 @@ Install apache webserver and nginx webserver on apache-server and nginx-server r
 
  * On apache-server :-
 
-    sudo apt update -y
+        sudo apt update -y
 
-    sudo apt install apache2 -y
+        sudo apt install apache2 -y
 
  * On nginx-server :-
 
-    sudo apt update -y
+        sudo apt update -y
 
-    sudo apt install nginx -y
+        sudo apt install nginx -y
 
 Further we need to create Image of both the servers. Later on we are going to use these images in Launch Template.
 
