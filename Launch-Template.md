@@ -1,4 +1,4 @@
-After image creation, let's proceed with the Launch Template creation.
+## After image creation, let's proceed with the Launch Template creation.
 
 Here, we are creating 2 Launch Templates, 1 using apache-image and 1 using nginx-image,
 as we will be creating 2 separate Auto scaling Groups for apache-server and nginx-server respectively.
