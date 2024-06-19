@@ -20,7 +20,8 @@ Click on Select Metric
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/37ddffdb-52d2-4c1a-b3e5-d82168f87396)
 
 
-![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/876c0451-a954-4d94-bf8e-f2f4be8025b1)
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/e5c4c6fe-7082-4012-b328-0868a76ccfde)
+
 
 Give alarm name and click on next
 
@@ -30,11 +31,11 @@ Preview and click on create Alarm
 
 Follow the above steps to create Alarm to
 
-  To trigger auto scaling policy when CPU Utilization of apache-server is equal to or below 60 %
+  To trigger auto scaling policy when CPU Utilization of apache-server is equal to or below 60 % (Create SNS topic in this for CloudWatch_Alarms_below_60% CPU Utilization)
 
-  To trigger auto scaling policy when CPU Utilization of nginx-server goes above or equal to 80 %
+  To trigger auto scaling policy when CPU Utilization of nginx-server goes above or equal to 80 % (use "CloudWatch_Alarms_above_80" SNS topic)
 
-  To trigger auto scaling policy when CPU Utilization of nginx-server is equal to or below 60 %
+  To trigger auto scaling policy when CPU Utilization of nginx-server is equal to or below 60 % (use "CloudWatch_Alarms_below_60" SNS topic)
 
 Our alarms are now created
 
@@ -63,3 +64,17 @@ You will see apache-ASG and nginx-ASG. Select both and click on Create Widget
 Make the changes on the next screen as you want and click on Save button
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/4326842f-e4e2-40f4-a020-002692855e13)
+
+We can see in SNS (Simple Notification Service) service that our SNS Topics are now created
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/6774a9fe-affb-4116-a895-e61f11dfbef2)
+
+You will receive the email similar to shown below
+
+Click on Confirm Subscription to receive the notifications when your alarm triggers
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/ab076eed-c7c2-4b59-94ed-2d4f85015313)
+
+Now you can see subscription status is "Confirmed" now
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/f29c3071-661c-44e1-87d2-19a27cb4911b)
