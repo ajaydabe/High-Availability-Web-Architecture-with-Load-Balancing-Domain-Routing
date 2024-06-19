@@ -71,12 +71,12 @@ Now we need to add the Auto scaling Policies in apache-ASG and nginx-ASG so that
 
 For that follow the below steps
 
-Let's create scale in policy in nginx-ASG for scaling in when CPU utilization is equal to or above 80 %
+Let's create scale in policy in nginx-ASG for scaling in when CPU utilization is equal to or below 60 %
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/acd01aa6-f70c-4010-a209-f79a32d6c73b)
 
 
-Follow the above procedure and create the same for the scalling out when CPU utilization is equal to or below 60 %
+Follow the above procedure and create the same for the scalling out when CPU utilization is equal to or above 80 %
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/54c80aa3-5c6f-4a2e-9e0f-f8c0b49ed671)
 
