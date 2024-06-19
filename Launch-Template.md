@@ -15,7 +15,7 @@ Give version as V 1.0
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/ea108196-1b89-471a-84fd-fc74b23bee54)
 
-Select the AMI from **My AMIs ==> Owned by me ==> AMI (apache-image)
+Select the AMI from **My AMIs ==> Owned by me ==> AMI (apache-image)**
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/c47f9ab0-2230-476b-a1e2-ae021e3d05ec)
 
@@ -23,3 +23,18 @@ Select instance type as t2.micro
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/c48cc5bb-b676-4417-8c70-2ea3d8b55104)
 
+Select the Key Pair
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/be8a94b3-8a62-4fda-a1d2-eda264791a35)
+
+Configure Network Settings
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/64264eb0-e21a-42c6-bc8f-4e6d8a291c09)
+
+Click on the **Create Launch Template** button.
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/eee744e9-c769-4656-9276-610a6af606f0)
+
+Follow the above steps to create another Launch Template using **nginx-image**.
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/e0d8e5af-e584-4174-b8f9-da7d5f690252)
