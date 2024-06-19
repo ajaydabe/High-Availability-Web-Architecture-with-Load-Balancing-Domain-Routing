@@ -14,7 +14,7 @@ Select the Lauch template and click on Next button
 
 #### Step 2 :- Choose instance launch options
 
-Select VPC, Availability Zones and subnets
+Select VPC, Availability Zones and subnets and click on Next.
 
 #### Step 3 :- Configure advanced options
 
@@ -44,3 +44,4 @@ Set
 Review the all selections and click on "Create Auto Scaling Group"
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/2fb5c613-6389-4454-9210-b8b75c569fb3)
+
