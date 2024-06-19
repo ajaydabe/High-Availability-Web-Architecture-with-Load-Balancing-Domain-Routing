@@ -45,6 +45,15 @@ Review the all selections and click on "Create Auto Scaling Group"
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/2fb5c613-6389-4454-9210-b8b75c569fb3)
 
+We just created nginx-ASG. Similarly follow the above steps and create apache-ASG having apache-LT Launch Template
+
+After creation, you will the instances are created exactly equal to the desired capacity (2) given in each Auto Scaling Group.
+
+We can see 4 instances got created (2 of apache-server and 2 of nginx-server)
+
+![1](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/de5227f5-d4d4-4ccd-b574-af98ef0db711)
+
+
 Now we need to add the Auto scaling Policies in apache-ASG and nginx-ASG so that it will add or remove the instances as per the CPU Utilization
 
 For that follow the below steps
