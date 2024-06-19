@@ -12,19 +12,19 @@
 * select EBS volume
 * And last click on launch instance.
 
-  create another instance with same configuration and give name as "apache-server"
+Create another instance with the same configurations and give the name as "apache-server"
 
   ![2instances](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/5a2b67cd-ce19-4ec3-9dc9-ee532544e5a0)
 
 Install apache webserver and nginx webserver on apache-server and nginx-server respectively using the below commands
 
-  On apache-server :-
+ * On apache-server :-
 
     sudo apt update -y
 
     sudo apt install apache2 -y
 
-  On nginx-server :-
+ * On nginx-server :-
 
     sudo apt update -y
 
