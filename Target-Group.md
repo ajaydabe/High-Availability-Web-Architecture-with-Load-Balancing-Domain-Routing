@@ -14,11 +14,13 @@ Select target type as Instances and give appropriate name to the Target Group
 
 Select the Instances on which we have to send traffic and click on the "Include as pending below" option.
 
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/9136d659-ca0c-49c8-ab3b-6e04a4908c38)
+
 It will add the selected instances Target section.
 
 Review and click on "Create Target Group" as shown below.
 
-![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/470d58ed-8ebd-40a8-afc6-6aed58aaf9ab)
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/e267bba1-a452-43bf-9c74-42b76d6f9ed3)
 
 Our Target Group will get created as you can see below
 
