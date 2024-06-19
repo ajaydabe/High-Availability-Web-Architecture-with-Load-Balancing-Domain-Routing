@@ -1,5 +1,9 @@
+Now let's create CloudWatch Alarms for below things with SNS Topic so we will get notifications:
 
-screenshot of showing path
+1) When CPU Utilization of apache-server is >=80 %
+2) When CPU Utilization of apache-server is <=80 %
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/0af22c1e-e4f2-46bc-ac8c-92e310c6676d)
 
 1) Create alarm to trigger auto scaling policy when CPU Utilization of apache-server goes above or equal to 80 %
 
