@@ -43,5 +43,14 @@ We don't have purchased domain so we have try it from our instance.
 
 We can use below command to reach out to our servers
 
-    curl <domain_name>
+    curl <domain_name>    # our domain name is "aws.project2.com"
 
+At first it took me to the apache-server
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/175011ed-bbda-4410-9bdd-f641486188c2)
+
+After using the same command, this time it took me to the nginx-server
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/946d9e0d-5a53-4577-9d03-a1cd28c2885c)
+
+### This is how we successfully completed the demo.
