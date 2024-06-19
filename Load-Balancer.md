@@ -1,0 +1,61 @@
+Now, we are creating Load Balancer to distribute traffic amaong the instances
+
+Follow the below given steps to create Load Balancer
+
+#### Step 1 :-
+
+screenshot showing the path
+
+#### Step 2 :-
+
+Select the required Load Balancer type based on our use cases. Here we selected Application Load Balancer.
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/2934a25a-6806-487d-9cbf-329cac21162a)
+
+#### Step 3 :-
+
+In Basic Configuration, give the appropriate name to your Load balancer
+
+Select Internet-facing Scheme as our traffic is coming from internet.
+
+Select the IP address type as IPv4 as our subnet using IPv4 addresses
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/4cdb7611-f190-4a27-9a52-1ed41b5a1214)
+
+#### Step 4 :-
+
+In Network mapping section, select the VPC, Subnets and Availability Zones as shown below
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/45ec2c2c-1abc-47bd-a2a5-23859a056806)
+
+#### Step 5 :-
+
+Select the Security Group
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/10ee0dd9-3458-4783-bcb1-44c2954be3a4)
+
+#### Step 6 :-
+
+In Listener and Routing section, select appropriate protocol, port number and our Target Group on which we are sending traffic
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/74a54bf6-a18e-4c6b-826e-403ca40fa4c2)
+
+#### Step 7 :-
+
+Click on Create Load Balancer option
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/6f9c5c2f-6584-47e9-bc1d-79b4ab5cfa29)
+
+Our Load Balancer is got created now and ready to serve traffic using the DNS name
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/8d2b0b51-1338-4087-8018-837b0a873a60)
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/7f845927-d7d6-408f-ab41-440160d2663f)
+
+Copy and paste this DNS Name on browser and you will see the apache or nginx page at first.
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/0c74bd1c-c3d9-4336-bbf4-d9c34a4eb340)
+
+Refresh the page and you can see that the load balancer is distributing the traffic by showing apache and nginx page as shown below.
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/534d51ed-df6f-4279-ad76-45663ba6528a)
