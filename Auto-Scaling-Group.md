@@ -2,7 +2,9 @@ After creating Launch Templates (apache-LT and nginx-LT), let's create two Auto 
 
 Follow the below steps to create Auto Scaling Groups:
 
-**********sceenshot here showing path to create ASG**********
+Go to **EC2 ==> Auto Scaling ==> Create Auto Scaling Group**
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/45e3633f-c49e-4a67-8d27-0523d600ea90)
 
 #### Step 1 :- Choose launch template
 
@@ -37,7 +39,11 @@ Set
 
 #### Step 5 :- Add notifications (optional)
 
+This section is optional so we don't need to add anything here.
+
 #### Step 6 :- Add tags (optional)
+
+If required, we can add tags here but for now we are not adding anything here.
 
 #### Step 7 :- Review
 
@@ -46,6 +52,8 @@ Review the all selections and click on "Create Auto Scaling Group"
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/2fb5c613-6389-4454-9210-b8b75c569fb3)
 
 We just created nginx-ASG. Similarly follow the above steps and create apache-ASG having apache-LT Launch Template
+
+
 
 Now, both the Auto Scaling Groups are created as shown below
 
