@@ -37,3 +37,10 @@ To proceed with image creation, follow the below given steps:
 Select one instance and follow the path **Action ==> Image and Template ==> Create Image**
 
 ![AMI-creation-step](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/258b608c-8168-4c65-bc4b-871c1155fdfb)
+
+Give name to your image. Scroll down and click on "Create Image" button.
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/e3d39f13-06c6-426d-b7f8-d6c5f00e41fb)
+
+Follow the same steps to create image from nginx-server. You can see below both the images are created.
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/bb8fd94c-a816-4c27-9d87-a90181abb3ed)
