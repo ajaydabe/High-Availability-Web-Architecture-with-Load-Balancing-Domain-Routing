@@ -47,7 +47,12 @@ Review the all selections and click on "Create Auto Scaling Group"
 
 We just created nginx-ASG. Similarly follow the above steps and create apache-ASG having apache-LT Launch Template
 
-After creation, you will the instances are created exactly equal to the desired capacity (2) given in each Auto Scaling Group.
+Now, both the Auto Scaling Groups are created as shown below
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/3e87fef2-03c2-456d-84d9-ccd8b8d7db65)
+
+
+After creation, you will see the instances are created exactly equal to the desired capacity (2) given in each Auto Scaling Group.
 
 We can see 4 instances got created (2 of apache-server and 2 of nginx-server)
 
