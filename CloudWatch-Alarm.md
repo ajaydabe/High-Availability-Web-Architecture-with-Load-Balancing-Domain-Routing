@@ -39,3 +39,27 @@ Follow the above steps to create Alarm to
 Our alarms are now created
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/a2998f8a-5dbc-4604-8f34-94f65b48cd1a)
+
+
+We can create a dashboard so that we can see the CPU Utilization of both servers on the graph
+
+Follow below steps to create Custom Dashboard
+
+
+
+Give a meaningful name to your dashboard.
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/e582d4ab-a039-435c-baff-0b345e533250)
+
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/c8c467aa-b9ce-4344-ad65-056fb82623f3)
+
+Go to EC2 ==> by Auto Scaling Group and search for CPUUtilization in search box.
+
+You will see apache-ASG and nginx-ASG. Select both and click on Create Widget
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/31756834-d98b-4536-9e38-fcb32afb7a9a)
+
+Make the changes on the next screen as you want and click on Save button
+
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/4326842f-e4e2-40f4-a020-002692855e13)
