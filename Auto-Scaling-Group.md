@@ -24,7 +24,7 @@ Then choose option "Choose from your load balancer target groups"
 
 Select the Target Group as shown below
 
-![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/de8ea76f-2131-40cf-bf41-4fee37c76a35)
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/7a12fefb-22c7-437e-981b-4d5255b20b20)
 
 #### Step 4 :- Configure group size and scaling
 
