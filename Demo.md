@@ -1,5 +1,8 @@
+## Let's see a demo of how our resources will work
 
 Using DNS Name created by Load Balancer, we will try to generate traffic on our servers
+
+For that, copy DNS and paste on browser and search multiple times.
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/ad69083d-6063-4333-8994-5d1eb1079a0b)
 
@@ -11,11 +14,11 @@ As shown below, we can see incresed CPU Utilization using **CloudWatch Dashboard
 
 ![cpu80](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/43c0e988-b886-49b7-abee-16f2a5cf01df)
 
-When it goes above 80 %, the 	**Nginx_CPU_Utilization_>=80%** and/or **Apache_CPU_Utilization_>=80%** alarm state will change to **In Alarm**.
+When it goes above 80 %, the **Nginx_CPU_Utilization_>=80%** and/or **Apache_CPU_Utilization_>=80%** alarm state will change to **In Alarm**.
 
 It will send you an email as shown below
 
-![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/c0f61a05-89f3-46cf-abf2-48a8b9ebf7cb)
+![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/645fd076-48db-4257-a22b-519b26d8e3a3)
 
 This action will add the number of instances given in auto scaling policy, which is 2 in each ASG in our case.
 
@@ -38,7 +41,7 @@ Last but not least, we created hosted zone.
 
 Let's try if our domain is working or not.
 
-We don't have purchased domain so we have try it from our instance.
+We don't have purchased domain so we have to try it from our instance.
 
 We can use below command to reach out to our servers
 
