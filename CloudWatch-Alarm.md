@@ -15,15 +15,15 @@ Go to **CloudWatch ==> All Alarms ==> Create Alarm**
 
 First let's create alarm to trigger auto scaling policy when CPU Utilization of apache-server is equal to or above 80 %
 
+#### Specify metric and conditions
+
 Click on **Select metric** option
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/40879c2c-5420-4bdf-b459-510d4f268a52)
 
 Go to **EC2 ==> Auto scaling Group ==> Select apache-ASG CPU Utilization**
 
-#### Specify metric and conditions
-
-Click on Select Metric
+Click on **Select Metric**
 
 ![image](https://github.com/ajaydabe/Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-Domain-Routing/assets/160045230/82291b79-92dd-4c99-94e7-e6842e9de53c)
 
